@@ -1,17 +1,10 @@
 # Social Media Site - name TBD
 
 ## Goal 
-#### The goal is to make a site that is portal to a clean new web. One without
-bloated apps and too much JavaScript. In all I just hope to make a
-friendlier and safer web to free us from our tech overlords, data
-tracking, security flaws, and the depressing hate on the major web apps like twitter and facebook
+#### The goal is to make a site that is a portal to a clean new web. One without bloated apps and too much JavaScript. In all I just hope to make a friendlier and safer web to free us from our tech overlords, data tracking, security flaws, and the depressing hate on the major web apps like twitter and facebook
 
 ## Idea
-#### The idea for the site is for it to be a portal to all kinds of pages
-where each page is a high performance web app that is open source with
-a shared account that can be used across all pages/apps.One day when I
-figure out how safely allow it, I would love for users to be able to
-simply make their own apps for the site. 
+#### The idea for the site is for it to be a portal to all kinds of pages where each page is a high performance web app that is open source with a shared account that can be used across all pages/apps.One day when I figure out how safely allow it, I would love for users to be able to simply make their own apps for the site. 
 
 ## Current App Ideas
 * Email App - gmail but good and no datatracking. For the desktop, web, cli
@@ -29,10 +22,7 @@ simply make their own apps for the site.
 * Many more as they get suggested or thought of 
 
 ## Webrowser
-#### The goal is to eventually make a desktop and mobile browser to view
-all of the pages in one central place instead of having to download a
-bunch of apps. I.e just have one browser app on your phone instead of one
-for the chat service and one for the email service
+#### In the end I hope to make a webrowser for desktop and mobile browser to view all of the pages in one central place instead of having to download a bunch of apps. I.e just have one browser app on your phone instead of one for the chat service and one for the email service
 
 ## Tech Stack
 * PostgresDB
