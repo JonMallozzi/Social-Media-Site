@@ -1,4 +1,8 @@
+mod config;
+
 use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
+
+use dotenv::dotenv;
 
 #[get("/")]
 async fn hello() -> impl Responder {
@@ -16,13 +20,16 @@ async fn manual_hello() -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    dotenv().ok();
+    let config = crate::config::Config::from_env().unwrap();
+
     HttpServer::new(|| {
         App::new()
             .service(hello)
             .service(echo)
             .route("/hey", web::get().to(manual_hello))
     })
-    .bind("127.0.0.1:8080")?
+    .bind(format!("{}:{}", config.server.host, config.server.port))?
     .run()
     .await
 }
